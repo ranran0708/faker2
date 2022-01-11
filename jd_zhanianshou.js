@@ -1,7 +1,7 @@
 /*
 TG https://t.me/aaron_scriptsG
 被内鬼偷给柠檬了,大家一起玩吧
-cron 33 0,6-23/2 * * * jd_zhanianshou.js
+cron "33 0,6-23/2 * * *" script-path=jd_zhanianshou.js, tag=炸年兽
 */
 const $ = new Env('炸年兽');
 const notify = $.isNode() ? require('./sendNotify') : '';
